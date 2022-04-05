@@ -1,0 +1,21 @@
+main {
+  background-image: ("images/background.webp");
+}
+h1,
+h2 {
+  font-family: "Alex Brush", cursive;
+}
+
+.home-nav,
+.lr-nav,
+.updates-nav {
+  transition: transform 100ms ease-in-out !important;
+}
+
+.home-nav:hover,
+.lr-nav:hover,
+.updates-nav:hover {
+  text-decoration: underline !important;
+
+  transform: scale(1.1) !important;
+}
