@@ -1,21 +1,76 @@
 main {
   background-image: ("images/background.webp");
 }
+h2.woocommerce-loop-category__title {
+  font-size: larger !important;
+  text-decoration: underline;
+  color: black !important;
+}
+h2.woocommerce-loop-product__title {
+  font-size: larger !important;
+  text-decoration: underline;
+  color: black !important;
+}
+
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Alex Brush", cursive;
+}
+
+div.entry-content {
+  max-width: 80% !important;
+}
+
+div.single-product {
+  margin-left: 250px !important;
+  margin-right: 250px !important;
+}
+
+h1.page-title {
+  text-align: center;
+}
+h1.entry-title {
+  text-align: center;
+}
+
+p.woocommerce-result-count {
+  margin-left: 50px !important;
+}
+
+a.post-edit-link {
+  visibility: hidden;
+}
+.woocommerce ul.products {
+  text-align: center;
+  margin-left: 250px !important;
+  margin-right: 250px !important;
+  max-width: 1000px;
 }
 
 .home-nav,
 .lr-nav,
-.updates-nav {
+.updates-nav,
+.shop-nav,
+.cart-nav,
+.account-nav,
+.checkout-nav {
   transition: transform 100ms ease-in-out !important;
 }
 
 .home-nav:hover,
 .lr-nav:hover,
-.updates-nav:hover {
+.updates-nav:hover,
+.shop-nav:hover,
+.cart-nav:hover,
+.account-nav:hover,
+.checkout-nav:hover {
   text-decoration: underline !important;
 
   transform: scale(1.1) !important;
+}
+nav.woocommerce-MyAccount-navigation {
+  font-size: larger;
+
+  text-decoration: none !important;
 }

@@ -44,6 +44,7 @@
                     <a class="btn btn-dark" href="<?php the_permalink(); ?>">Read More</a>
 
         </article>
+        
         <?php 
              endwhile;
             endif;

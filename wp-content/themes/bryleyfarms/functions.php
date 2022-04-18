@@ -691,3 +691,9 @@ function register_widget_areas() {
 	));
 }
 add_action('widgets_init', 'register_widget_areas');
+
+//STAR RATING
+/*-----Source: http://stackoverflow.com/questions/14227121/how-do-you-add-the-star-ratings-for-products-in-woocommerce---*/
+
+
+
